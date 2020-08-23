@@ -1,0 +1,53 @@
+### 
+## @Github: https://github.com/Certseeds/CS207_Digital_Design
+## @Organization: SUSTech
+## @Author: nanoseeds
+## @Date: 2020-04-02 09:32:43
+## @LastEditors: nanoseeds
+## @LastEditTime: 2020-08-23 20:35:40
+### 
+# Created by https://www.gitignore.io/api/xilinx,xilinxvivado
+# Edit at https://www.gitignore.io/?templates=xilinx,xilinxvivado
+### Xilinx ###
+
+# gitignore template for Xilinx Vivado Design Suite
+# website: https://www.xilinx.com/support/download.html
+# [home]
+*.jou
+*.log
+*.debug
+*.str
+*.zip
+*.tmp
+*.rst
+*.os
+*.js
+*.pb
+*.dcp
+*.hwdef
+*.vds
+*.veo
+*.wdf
+*.vdi
+*.dmp
+*.rpx
+*.rpt
+*_stub.v
+*_stub.vhdl
+*_funcsim.v
+*_funcsim.vhdl
+.project
+
+# [dir]
+*.cache
+.metadata
+*.data
+*.ipdefs
+.Xil
+
+### IP synth
+
+*.c
+*.h
+*.vho
+*.html

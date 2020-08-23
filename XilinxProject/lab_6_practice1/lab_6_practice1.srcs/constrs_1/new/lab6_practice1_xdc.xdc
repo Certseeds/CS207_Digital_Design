@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN Y9 [get_ports {input1[2]}]
+set_property PACKAGE_PIN W9 [get_ports {input1[1]}]
+set_property PACKAGE_PIN Y7 [get_ports {input1[0]}]
+set_property PACKAGE_PIN A21 [get_ports whichRoom]
+set_property IOSTANDARD LVCMOS33 [get_ports {input1[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {input1[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {input1[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports whichRoom]
